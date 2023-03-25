@@ -1,6 +1,6 @@
-#df = spark.read.csv("s3://project2022dbdagroup3/New_project_data/final_data/itinararies.csv",header=True,sep=',');
+#df = spark.read.csv("s3://your_bucket/New_project_data/final_data/itinararies.csv",header=True,sep=',');
 
-#df.write.parquet("s3a://project2022dbdagroup3/New_project_data/final_data/data.parquet");
+#df.write.parquet("s3a://your_bucket/New_project_data/final_data/data.parquet");
 
 import logging
 
